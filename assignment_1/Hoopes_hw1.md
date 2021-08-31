@@ -10,3 +10,6 @@ state as the remnants of Hurricane Nora move over the region.  This will create
 very high streamflow, which will decline next weekend, but still be moderate
 next Monday. The gradual decline should continue the following week, even with
 sporadic monsoon activity.    
+
+# Grade:
+3/3 -- Really nice job! Next time make sure to save this file in your 'Forecast_Submissions' folder. That's the only place I will check for work to graded in the future.
