@@ -1,5 +1,14 @@
 Homework 3 submission - by Andrew Hoopes
 
+___
+### Grade
+3/3: Great work!
+- Next time make sure to submit your python script too. I don't grade them for content but I do check that you have your work. I found yours in the Assignment folder but next time include it in this folder for credit.
+- Also don't forget to include a summary of your forecast and how you got it. 
+- Next time try adding some formatting to your markdown.
+_____
+
+
 1. Each of the variables used has the list data type and a length of 11941 days, from January 1st, 1989 to September 10, 2021.  Within the lists, the flow list consistently has the float datatype, indicating a number with decimals, while the year, month, and day lists are always integers, meaning they must be whole numbers.
 
 2.  For the week 1 predicted value of 85 cf/s, the recorded flow was higher than that value 761 times out of 970 total September days between 1989 and 2021, or about 78.5% of all September days in that time period.  For the week 2 predicted value of 75 cf/s, the recorded flow was higher than that value 846 times out of 970 total September days between 1989 and 2021, or about 87.2% of all September days in that time period.
@@ -9,6 +18,6 @@ Years before 2000: For the week 1 predicted value of 85 cf/s, the recorded flow 
 
 Years after 2010: For the week 1 predicted value of 85 cf/s, the recorded flow was higher than that value 240 times out of 340 total September days between 2010 and 2021, or about 70.6% of all September days in that time period.  For the week 2 predicted value of 75 cf/s, the recorded flow was higher than that value 272 times out of 340 total September days between 2010 and 2021, or about 80.0% of all September days in that time period.
 
-4. Based on the averages for September 1-15 and September 16-30 calculated by the python code, streamflow slowly declines over the month of September, as the average 1989-2021 streamflow decreases from 177.4 cf/s from September 1-15 to 166.4 cf/s from September 16-30.  This makes sense looking at Arizona's climatology, as the state transitions out of the summer monsoon and into the year's second dry season.  The second half of September is also much less predictable, with a much higher standard deviation (366.6 vs 169.4).  This is likely due to the presence of tropical systems, as they can deliver lots of precipitation in an otherwise dry period of the year. 
+4. Based on the averages for September 1-15 and September 16-30 calculated by the python code, streamflow slowly declines over the month of September, as the average 1989-2021 streamflow decreases from 177.4 cf/s from September 1-15 to 166.4 cf/s from September 16-30.  This makes sense looking at Arizona's climatology, as the state transitions out of the summer monsoon and into the year's second dry season.  The second half of September is also much less predictable, with a much higher standard deviation (366.6 vs 169.4).  This is likely due to the presence of tropical systems, as they can deliver lots of precipitation in an otherwise dry period of the year.
 
 Streamflow along the Verde river has been on a gradual decline over the past week, and that trend will continue as hot and dry conditions prevail throughout Arizona.  The rate of decline will get slower as the flow rate lessens, as the stream will eventually reach a pre-monsoon equilibrium state without drying up, at least theoretically.
