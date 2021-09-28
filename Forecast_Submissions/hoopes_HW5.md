@@ -1,6 +1,10 @@
 Homework 5 submission - by Andrew
 Hoopes.
 
+## Grade
+3/3: great work!  FYI you can also includ tables in markdown so you don't need to write everythign out. See my answer for #5 on how to do this with a for loop
+____
+
 Forecast rationale - Streamflow along the Verde river has helt relatively steady over the past week, with an early-week bump aided by precipitation.  More storms are likely to close out the weekend and begin the next week, so further boosts in streamflow can be expected going into this week's forecast period.  Streamflow should start to decline again after the middle of the week, as conditions will likely dry up again.
 
 1. The pandas data file initially has 11955 indices and 5 columns.  The columns and their datatypes are: agency_cd (object), site_no (int64), datetime (object), flow (float64), and code (object).  After the initial reading, 3 additional columns are added by splitting the datetime, they are called year, day, and month, each with the int64 datatype.
