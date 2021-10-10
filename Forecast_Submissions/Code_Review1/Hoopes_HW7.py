@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # ** MODIFY **
 # Set the file name and path to where you have stored the data
 # Temporarily set up with old data, will update when it is time to make new forecast
-filename = 'streamflow_week6.txt'
+filename = 'streamflow_week7.txt'
 filepath = os.path.join('../../data', filename)
 print(os.getcwd())
 print(filepath)
@@ -39,7 +39,7 @@ ax.plot(recent_data['datetime'], recent_data['flow'], color='steelblue', label='
 ax.set(title="Observed Flow", xlabel="Date", ylabel="Weekly Avg Flow [cfs]")
 ax.legend()
 plt.show()
-# fig.savefig('Recent_flow_updated.png')
+fig.savefig('Recent_flow_updated.png')
 
 # %%
 # Histogram plot of October flow
@@ -51,7 +51,7 @@ ax.hist(oct_data['flow'], bins=my_bins,
            edgecolor='lightgrey', color='gold')
 ax.set(xlabel='October Flow cfs', ylabel='count', title= plot_title)
 plt.show()
-# fig.savefig('October_histogram.png')
+fig.savefig('October_histogram.png')
 
 # %%
 # Figure out how the flow behaves in October
@@ -62,7 +62,7 @@ ax.plot(oct_mean.index, oct_mean.values, color='crimson', label='October mean')
 ax.set(title="Mean October Flow", xlabel="Day of Month", ylabel="October Mean Flow [cfs]")
 ax.legend()
 plt.show()
-# fig.savefig('October_mean.png')
+fig.savefig('October_mean.png')
 
 # %%
 # Also consider median flow
@@ -72,7 +72,7 @@ ax.plot(oct_median.index, oct_median.values, color='crimson', label='October med
 ax.set(title="Median October Flow", xlabel="Day of Month", ylabel="October Median Flow [cfs]")
 ax.legend()
 plt.show()
-# fig.savefig('October_median.png')
+fig.savefig('October_median.png')
 
 # %%
 # Create and run a function which forecasts the streamflow for the next two weeks based on 
@@ -115,7 +115,7 @@ def flowcast(obs,mean,med,a,day):
 # Should be set to 11 for week 7.
 last_flow=recent_data["flow"].iloc[-1]
 precip=1
-date=3
+date=11
 flowcast1,flowcast2=flowcast(last_flow,oct_mean,oct_median,precip,date)
 print('Week 1 forecast:',flowcast1,'cfs')
 print('Week 2 forecast:',flowcast2,'cfs')
