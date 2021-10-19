@@ -1,4 +1,15 @@
 Homework 8 Submission - By Andrew Hoopes
+___________
+## Grade
+### 1. Forecast Submision: 
+**3/3**: Nice work and nice summary! I especially like your comparison of mean and median it really highlights the importance of outliers. 
+
+### 2. Graded Script
+Refer to [the rubric](https://github.com/HAS-Tools-Fall2021/Course-Materials21/blob/main/Content/Starter_Codes/week7_code_review_rubric.md) for details on scoring: 
+- **Readability: 2.5/3** - Great job commenting. I just subtracted 0.5 because your doc strings were not quite formatted correctly. Missing data types and the one line summary. 
+- **Style: 3/3** 
+- **Code: 3/3** Awesome! I ran it with no trouble and I really love your use of groupby and also the function that you made and how it includes the precip forecast.
+___________
 
 Week 1 Forecast: 128 cfs
 
