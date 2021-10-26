@@ -4,6 +4,11 @@ Week 1 forecast: 166 cfs
 
 Week 2 forecast: 160 cfs
 
+____________
+## Grade:
+**3/3:** Great job! I'm impressed with all the datasets you added. Nice plotting too. 
+____________
+
 ![Plot of previous 30 days' flow](../data/Recent_flow_week9.png)
 
 1. For this week's forecast, I added to my precipitation component by considering climatological precipitation in the region, for locations both nearby (Prescott, Camp Verde) and upstream (Flagstaff) of the forecast point, calculating the probability of precipitation for any given day of the month and generating an index similar to the ones last week based on that probability.  Probability indices were generated for each site/dataset, and averaged to create a combined probability, multiplied by 7 to get a weekly index.  This climatological index was then compared to the forecast index, generated the same way as the previous week; the comparison replacing the arbitrary expectation of 1 precip day per week used last week.
