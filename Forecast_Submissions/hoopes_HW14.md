@@ -1,5 +1,10 @@
 Week 14 homework submission - by Andrew Hoopes
 
+____
+## Grade: 
+3/3:  Really great job reflecting on this process and walking through everything! Yours is a great example of a repo that appears to be thoughtfully setup and well documented but when you really try to use it causes trouble. Environments are a very common cause of issues as are compiled codes like the fortran you ran into. 
+______
+
 1. The paper I picked was titled SMAP-HydroBlocks, a 30-m satellite-based soil moisture dataset for the conterminous US.  The paper came from the scientific data journal from nature.co, and it was accessed from https://www.nature.com/articles/s41597-021-01050-2.  This paper developed an extremely high resolution (30m) dataset for soil moisture, using land surface and radiative transfer modeling, machine learning, microwave satellite data, and in-situ observations.
 
 2. Code for the HydroBlocks land surface model was included, stored on two separate github repos; one at https://github.com/chaneyn/HydroBlocks and the other at https://github.com/chaneyn/geospatialtools.  The code made available was for a simplified version of the land surface model.  Unfortunately, the full model, with machine learning components, use in the final paper, only had its code availiable "upon request".
